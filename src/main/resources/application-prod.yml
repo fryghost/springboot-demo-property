@@ -1,0 +1,15 @@
+application:
+  name: prod环境 @artifactId@
+#  version: prod环境 @version@
+  randomId: ${random.int}  # 随机int
+developer:
+  name: developer环境 prod
+  website: developer环境 demo.test.prod
+  email: prodTest@email.com
+  uuid: developer${random.uuid} # 随机uuid
+  map: {k1: v1,k2: v2}
+  lists:
+   - a
+   - b
+   - c
+  flag: true
